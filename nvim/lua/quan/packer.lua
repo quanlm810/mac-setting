@@ -7,8 +7,8 @@ return require('packer').startup(function(use)
   -- Packer can manage itself
   use 'wbthomason/packer.nvim'
   use {
-      'nvim-telescope/telescope-file-browser.nvim',
-      requires = { "nvim-telescope/telescope.nvim", "nvim-lua/plenary.nvim" }
+      'nvim-telescope/telescope.nvim',
+      requires = { "nvim-lua/plenary.nvim" }
   }
   use('nvim-treesitter/nvim-treesitter', {run = ':TSUpdate'})
   use('nvim-treesitter/playground')
